@@ -1,4 +1,5 @@
-FROM debian:9.5-slim
+FROM debian:bullseye-slim
+
 
 RUN apt update
 RUN apt -yq install rsync openssh-client
